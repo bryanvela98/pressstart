@@ -26,19 +26,5 @@ To run Press Start locally on your machine, follow these instructions:
    ```bash
    git clone https://github.com/bryanvela98/pressstart.git
 
-### Navigate to the project directory:
-   ```bash
-   cd pressstart
-
-### Install dependencies:
-   ```bash
-   npm install
-
-### Start the development server:
-   ```bash
-   npm start
-
-Open your web browser and visit http://localhost:3000 to access Press Start.
-
 ### Contact
 If you have any questions or suggestions about Press Start, feel free to contact me at bryanedinson1998@hotmail.com.
