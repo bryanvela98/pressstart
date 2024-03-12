@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header{
+    height: 80px;
+    padding: 20px;
+    display: flex;
+}
+.link-bar-1 {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding-right:50px;
+}
+.link-bar-1 ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: "Pixelify Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.link-bar-1 a{
+    text-decoration: none;
+    color: #F4EB49;
+    }
+
+.link-bar-1 a:hover{
+    color: #fa3301;
+}
+
+.link-bar-1 ul li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    height: 30px; 
+    width: 2px; 
+    background-color: red; 
+    margin-left: 30px; 
+    margin-right: 30px; 
+    vertical-align: middle; 
+}
+.logo-press{
+    width: 50%;
+}
+
+.logo-press > div:first-child  {
+    width: 480px;
+    height: 173px;
+    color: #FF3823;
+    font-family: "Press Start 2P";
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.28;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.logo-press > div:nth-child(2){
+    width: 347px;
+    height: 76px;
+    color: #F4EB49;
+    font-family: "Pixelify Sans";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.44;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.picture-zone{
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img1{
+    width: 655px;
+    height: 491px;
+    background: #00000000;
+}
+
+main{
+    display: flex;
+}
+
+.container1{
+    display: flex;
+}
+.s1{
+    margin-top: 60px;
+    width: 50%;
+    
+}
+.s1 > div:first-child  {
+    width: 100%;
+    height: 135px;
+    color: #FF3823;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.28;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.s1 > div:nth-child(2){
+    width: 437px;
+    height: 184px;
+    opacity: 80%;
+    color: #F4EB49;
+    font-family: "Pixelify Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42;
+    text-align: justify;
+    margin-left: 140px;
+}
+
+.img2{
+    width: 450px;
+    height: 300px;
+    background: #00000000;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.s2 > div:first-child{
+    width: 100%;
+    height: 25px;
+    color: #39FF14;
+    font-family: "Press Start 2P";
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.s2 > div:last-child{
+    width: 100%;
+    display: flex;
+    
+}
+
+.title2{
+    width: 199px;
+    height: 25px;
+    color: #FFA500;
+    font-family: "Press Start 2P";
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.title3{
+    width: 199px;
+    height: 25px;
+    color: #FF3823;
+    font-family: "Press Start 2P";
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.paragrap1{
+    width: 199px;
+    height: 168px;
+    opacity: 80%;
+    color: #D757F6;
+    font-family: "Pixelify Sans";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.42;
+    text-align: center;
+}
+.paragrap2{
+    width: 199px;
+    height: 168px;
+    opacity: 80%;
+    color: #FFA500;
+    font-family: "Pixelify Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.42;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+} 
+
+.container2 > div:first-child{
+    width: 40%;
+    background-color: F4EB49;
+} 
+footer{
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 30px 8px 8px 8px;
+    background-color: #F4EB49;
+}
+
+footer *{
+    background-color: inherit;
+}
+
+.link-bar-2 {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-right:50px;
+}
+.link-bar-2 ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: "Pixelify Sans";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.link-bar-2 a{
+    text-decoration: none;
+    color: #FFA500;
+}
+
+.link-bar-2 a:hover{
+    color: #fa3301;
+}
+
+.link-bar-2 ul li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    height: 30px; 
+    width: 3px; 
+    background-color: #0C59CF; 
+    margin-left: 30px; 
+    margin-right: 30px; 
+    vertical-align: middle; 
+}
+
+footer .container2 > div:first-child{
+    width: 50%;
+    text-align: right;
+    padding-right: 70px;
+} 
+
+footer .container2 > div:last-child{
+    width: 50%;
+}
+
+footer p{
+    width: 300px;
+    height: 67px;
+    color: #FFA500;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer > div:last-child{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-right: 55px;
+}
+
+header div {
+    width: 700px;
+    height: 20px;
+    color: #FF3823;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.28;
+    text-align: left;
+}
