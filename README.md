@@ -1,4 +1,4 @@
-# Press Start
+# Press Start (check master branch)
 
 Welcome to Press Start! This project is a tribute to classic arcade games, bringing back the nostalgia of the retro gaming era.
 
@@ -27,13 +27,17 @@ To run Press Start locally on your machine, follow these instructions:
    git clone https://github.com/bryanvela98/pressstart.git
 
 ### Navigate to the project directory:
-cd pressstart
+   ```bash
+   cd pressstart
 
 ### Install dependencies:
-npm install
+   ```bash
+   npm install
 
 ### Start the development server:
-npm start
+   ```bash
+   npm start
+
 Open your web browser and visit http://localhost:3000 to access Press Start.
 
 ### Contact
