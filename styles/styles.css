@@ -232,11 +232,17 @@ footer > div:last-child{
 }
 
 
-/* @media only screen and (max-width:576px) {
+@media only screen and (max-width:576px) {
     .title5{
         padding-left: 50px;
         padding-right: 50px;
     }
 
 
-} */
+}
+
+@media only screen and (max-width:576px) {
+    .minilogo{
+        font-size: 26px;
+    }
+}
