@@ -1,6 +1,6 @@
 # Press Start - Classic Video Games Webpage
 
-Welcome to Press Start, your portal to relive the golden age of classic video games. Here you'll find a nostalgic collection of timeless favorites that defined an era in gaming history.
+Welcome to Press Start, your portal to relive the golden age of classic video games. Here you'll find a nostalgic collection of timeless favorites that defined an era in gaming history. DONT FORGET TO TRY THE GAMES!!!!
 
 ## Introduction
 Get ready to embark on a journey back to your childhood with our selection of classic games. From the iconic Pong to the thrilling Space Invaders, Press Start offers an immersive experience that will transport you to a world of pixels and nostalgia.

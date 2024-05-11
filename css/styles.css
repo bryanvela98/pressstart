@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap");
+.letter2 {
+  text-decoration: none;
+  color: #F4EB49;
+  font-family: "Pixelify Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.letter2:hover {
+  color: #fa3301;
+}
+
+.line {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 2px;
+  background-color: red;
+  margin-left: 30px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+.logo-press {
+  width: 50%;
+}
+
+.minilogo {
+  color: #FF3823;
+  font-family: "Press Start 2P";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.28;
+  letter-spacing: -0.5px;
+  margin-left: 25px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 30px 8px 8px 8px;
+  background-color: #F4EB49;
+}
+footer * {
+  background-color: inherit;
+}
+
+.link-bar-2 {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+.link-bar-2 ul li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Pixelify Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+.link-bar-2 a {
+  text-decoration: none;
+  color: #FFA500;
+}
+.link-bar-2 a:hover {
+  color: #fa3301;
+}
+
+.line2 {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 3px;
+  background-color: #0C59CF;
+  margin-left: 30px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+footer .container2 > div:last-child {
+  width: 50%;
+}
+footer p {
+  width: 300px;
+  height: 67px;
+  color: #FFA500;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+footer > div:last-child {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.letter1 {
+  color: #F4EB49;
+  font-family: "Pixelify Sans";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.44;
+  text-align: center;
+}
+
+.picmod {
+  height: 400px;
+}
+
+main {
+  display: flex;
+}
+
+.title4 {
+  width: 100%;
+  height: 100px;
+  color: #FF3823;
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.28;
+  text-align: center;
+}
+
+.title5 {
+  opacity: 80%;
+  color: #F4EB49;
+  font-family: "Pixelify Sans";
+  font-weight: 400;
+  text-align: justify;
+}
+
+.titleControls {
+  color: #FF3823;
+  font-family: "Press Start 2P";
+  font-size: 15px;
+  line-height: 1.28;
+  text-align: center;
+}
+
+.img2 {
+  height: 350px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+  transition: all 0.9s;
+  /* animation */
+}
+.img2:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.font6 {
+  width: 100%;
+  color: #39FF14;
+  font-family: "Press Start 2P";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
+.s2 > div:last-child {
+  width: 100%;
+  display: flex;
+}
+
+.title2 {
+  width: 199px;
+  height: 25px;
+  color: #FFA500;
+  font-family: "Press Start 2P";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.title3 {
+  width: 199px;
+  height: 25px;
+  color: #FF3823;
+  font-family: "Press Start 2P";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+b {
+  color: #FF3823;
+  font-family: "Press Start 2P";
+  font-size: 14px;
+}
+
+.paragrap1 {
+  width: 200px;
+  opacity: 80%;
+  color: #D757F6;
+  font-family: "Pixelify Sans";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.42;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.paragrap2 {
+  width: 200px;
+  opacity: 80%;
+  color: #FFA500;
+  font-family: "Pixelify Sans";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.42;
+  padding-top: 10px;
+}
+
+.container2 > div:first-child {
+  width: 40%;
+  background-color: F4EB49;
+}
+
+#gameCanvasSnake {
+  border: 1px solid black;
+  background-color: yellow;
+  width: 100%;
+  /* Canvas fills its container horizontally */
+  height: 100%;
+  /* Canvas fills its container vertically */
+  display: block;
+  /* Ensure canvas is displayed as a block element */
+}
+
+#gameCanvasSpace {
+  border: 1px solid black;
+  background-color: yellow;
+  width: 100%;
+  /* Canvas fills its container horizontally */
+  height: 100%;
+  /* Canvas fills its container vertically */
+  display: block;
+  /* Ensure canvas is displayed as a block element */
+}
+
+#gameCanvasPong {
+  border: 1px solid black;
+  background-color: yellow;
+  display: block;
+  width: 100%;
+  /* Canvas fills its container horizontally */
+  height: 100%;
+  /* Canvas fills its container vertically */
+  display: block;
+  /* Ensure canvas is displayed as a block element */
+}
+
+.canvas-container {
+  width: 400px;
+  /* Adjust as needed */
+  height: 400px;
+  /* Adjust as needed */
+  margin: auto;
+  /* Center the container */
+  border: 2px solid black;
+  /* Optional: Add border for visual clarity */
+  overflow: hidden;
+  /* Prevent canvas from overflowing its container */
+}
+
+.canvas-container-pong {
+  width: 600px;
+  /* Adjust as needed */
+  height: 500px;
+  /* Adjust as needed */
+  margin: auto;
+  /* Center the container */
+  border: 2px solid black;
+  /* Optional: Add border for visual clarity */
+  overflow: hidden;
+  /* Prevent canvas from overflowing its container */
+}
+
+#scoreDisplay {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  opacity: 80%;
+  color: #F4EB49;
+  font-family: "Pixelify Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.buttongame {
+  display: block !important;
+  margin: 10px auto !important;
+  color: #FF3823 !important;
+  font-family: "Press Start 2P" !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 1.28 !important;
+  border-color: yellow !important;
+}
+
+.buttongame:hover {
+  background-color: yellow !important;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .title5 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .minilogo {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .gamesize {
+    width: 90%;
+    height: 300px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

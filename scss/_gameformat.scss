@@ -1,0 +1,112 @@
+#gameCanvasSnake {
+    border: 1px solid black;
+    background-color: yellow;
+    width: 100%;
+    /* Canvas fills its container horizontally */
+    height: 100%;
+    /* Canvas fills its container vertically */
+    display: block;
+    /* Ensure canvas is displayed as a block element */
+}
+
+
+#gameCanvasSpace {
+    border: 1px solid black;
+    background-color: yellow;
+    width: 100%;
+    /* Canvas fills its container horizontally */
+    height: 100%;
+    /* Canvas fills its container vertically */
+    display: block;
+    /* Ensure canvas is displayed as a block element */
+
+}
+#gameCanvasPong {
+    border: 1px solid black;
+    background-color: yellow;
+    display: block;
+    width: 100%;
+    /* Canvas fills its container horizontally */
+    height: 100%;
+    /* Canvas fills its container vertically */
+    display: block;
+    /* Ensure canvas is displayed as a block element */
+
+}
+
+.canvas-container {
+    width: 400px;
+    /* Adjust as needed */
+    height: 400px;
+    /* Adjust as needed */
+    margin: auto;
+    /* Center the container */
+    border: 2px solid black;
+    /* Optional: Add border for visual clarity */
+    overflow: hidden;
+    /* Prevent canvas from overflowing its container */
+}
+
+.canvas-container-pong {
+    width: 600px;
+    /* Adjust as needed */
+    height: 500px;
+    /* Adjust as needed */
+    margin: auto;
+    /* Center the container */
+    border: 2px solid black;
+    /* Optional: Add border for visual clarity */
+    overflow: hidden;
+    /* Prevent canvas from overflowing its container */
+}
+
+#scoreDisplay {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    opacity: 80%;
+    color: #F4EB49;
+    font-family: "Pixelify Sans";
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.buttongame {
+    display: block !important;
+    margin: 10px auto !important;
+    color: #FF3823 !important;
+    font-family: "Press Start 2P" !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 1.28 !important;
+    border-color: yellow !important;
+
+}
+
+.buttongame:hover {
+    background-color: yellow !important;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+
+}
+

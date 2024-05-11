@@ -11,22 +11,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- BS 5.3  end -->
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Press Start</title>
 </head>
 
 <body>
     <div>
         <!-- navbar inicia -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand minilogo" href="">Press Start</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon" style="color: red;"></span>
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-flex justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
+                <div class="justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav text-align-right">
                         <li class="nav-item"><a class="nav-link letter2" href="../pages\spaceinvaders.html">Space
                                 Invaders</a></li>
                         <li class="line"></li>
@@ -54,16 +55,30 @@
                             "Pong" is a classic arcade video game released in 1972 by Atari. It simulates table tennis, featuring simple graphics and gameplay where players control paddles to hit a ball back and forth. Developed by Allan Alcorn, it became the first commercially successful arcade game and played a significant role in popularizing video games. Its success paved the way for the growth of the arcade game industry and inspired many future game developers.
                         </p>
                         <div class="col-sm-1 col-md-2"></div>
+                        <div class="col-sm-1 col-md-2"></div>
+                        <p class="col-sm-10 col-md-8 titleControls">
+                            Controls: Keys ( W , S : P1) <br>( Up , Down : P2)
+                        </p>
+                        <div class="col-sm-1 col-md-2"></div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6  p-2">
-                    <img class="d-block mx-auto img2 img-fluid" src="..."
+                    <img class="d-block mx-auto img2 img-fluid" src="../assets/img/pong.jpeg"
                         alt="">
                 </div>
             </div>
         </main>
+        <div style="height: 25px;"></div>
         <div class="container-fluid">
+            <div><button id="startButton" class="buttongame btn btn-outline-warning">Start Game</button>
+                <span id="scoreDisplay">Score: 0</span>
+            </div>
+            <div class="canvas-container-pong"> 
+                <canvas id="gameCanvasPong" width="600" height="500"></canvas>
+                <script src="/js/pong.js"></script>
+            </div>
         </div>
+        <div style="height: 25px;"></div>
         <!-- footer start -->
         <footer class="container-fluid">
             <nav class="col-12 link-bar-2">
@@ -99,6 +114,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
-</body>
 
 </html>

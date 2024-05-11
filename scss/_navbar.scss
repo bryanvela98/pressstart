@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap");
+
+.letter2 {
+    text-decoration: none;
+    color: #F4EB49;
+    font-family: "Pixelify Sans";
+    font-weight: 400;
+    font-size: 16px;
+
+    &:hover {
+        color: #fa3301;
+    }
+}
+
+.line {
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 2px;
+    background-color: red;
+    margin-left: 30px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.logo-press {
+    width: 50%;
+}
+
+.minilogo {
+    color: #FF3823;
+    font-family: "Press Start 2P";
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.28;
+    letter-spacing: -0.5px;
+    margin-left: 25px;
+}
